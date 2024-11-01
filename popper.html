@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Popper.js Example</title>
+  <script src="https://unpkg.com/@popperjs/core@2"></script>
+</head>
+<body>
+  <button id="button">Hover me</button>
+  <div id="tooltip" role="tooltip">Tooltip content</div>
+
+  <script>
+    const button = document.getElementById('button');
+    const tooltip = document.getElementById('tooltip');
+
+    Popper.createPopper(button, tooltip, {
+      placement: 'top',
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+@media (max-width: 600px) {
+    .responsive-text {
+        font-size: 12px; /* Adjust the font size as needed */
+    }
+}
+        @media (max-width: 600px) {
+            .responsive-margin-p {
+                margin: 5px; /* Adjust the margin as needed */
+            }
+            .responsive-margin-h1 {
+                margin: 10px; /* Adjust the margin as needed */
+            }
+}
+.overview{
+    height: 190px;
+    background-color: #d3dae1;
+    
+}
